@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social media design</title>
+    <link rel="stylesheet" href="linkedin.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left-nav">
+            <a href="linkedin profile.html" class="logo"> <img src="../images1/logo.png"></a>
+
+            <div class="search-box">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                    <path
+                        d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                </svg>
+                <input type="text" id="" placeholder="search" autocapitalize="words">
+
+            </div>
+        </div>
+        <div class="center-nav">
+            <ul class="nav-tag">
+
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path
+                                d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z" />
+                        </svg> <span>Home</span> </a> </li>
+                <li><a href="#"><img src="../images2/network.png"><span>Network</span> </a> </li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path
+                                d="M128 32C92.7 32 64 60.7 64 96l0 256 64 0 0-256 384 0 0 256 64 0 0-256c0-35.3-28.7-64-64-64L128 32zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480l486.4 0c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2L19.2 384z" />
+                        </svg> <span>Jobs</span> </a></li>
+                <li><a href="#"><img src="../images2/chat.png"> <span>Chats</span> </a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width: 27px;>
+                            <path
+                                d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416l400 0c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4l0-25.4c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112l0 25.4c0 47.9 13.9 94.6 39.7 134.6L72.3 368C98.1 328 112 281.3 112 233.4l0-25.4c0-61.9 50.1-112 112-112zm64 352l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
+                        </svg> <span>Notification</span> </a></li>
+            </ul>
+
+            <ul id="dropDown">
+
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path
+                                d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z" />
+                        </svg> <span>Home</span> </a>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px"
+                        fill="#e8eaed" class="cancel" onclick=hideBar()>
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </li>
+
+                <li><a href="#"><img src="../images2/network.png"><span>Network</span> </a> </li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path
+                                d="M128 32C92.7 32 64 60.7 64 96l0 256 64 0 0-256 384 0 0 256 64 0 0-256c0-35.3-28.7-64-64-64L128 32zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480l486.4 0c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2L19.2 384z" />
+                        </svg> <span>Jobs</span> </a></li>
+                <li><a href="#"><img src="../images2/chat.png"> <span>Chats</span> </a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width: 27px;>
+                            <path
+                                d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416l400 0c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4l0-25.4c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112l0 25.4c0 47.9 13.9 94.6 39.7 134.6L72.3 368C98.1 328 112 281.3 112 233.4l0-25.4c0-61.9 50.1-112 112-112zm64 352l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
+                        </svg> <span>Notification</span> </a></li>
+            </ul>
+        </div>
+        <div class="right-nav">
+            <svg xmlns="http://www.w3.org/2000/svg" onclick=showBar() viewBox=" 0 0 448 512" width="20px" heigth="20px"
+                class="hamburg">
+                <path
+                    d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+            </svg>
+            <div class="online">
+                <img src="../html.pictures/pep images.jpg" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="../html.pictures/pep images.jpg">
+
+                    <div>
+                        <h3>sergios pukas</h3>
+                        <p>see your profile</p>
+                    </div>
+
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="../images2/feedback.png" alt="">
+                    <p>Give feedback</p>
+                    <span>&#10095</span>
+                </a>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="../images2/setting.png" alt="">
+                    <p>Settings & privacy</p>
+                    <span>&#10095</span>
+                </a>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="../images2/help.png" alt="">
+                    <p>Help & Support</p>
+                    <span>&#10095</span>
+                </a>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="../images2/display.png" alt="">
+                    <p>Display & Accessibility</p>
+                    <span>&#10095</span>
+                </a>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="../images2/logout.png" alt="">
+                    <p> logout</p>
+                    <span>&#10095</span>
+                </a>
+            </div>
+        </div>
+
+
+
+    </nav>
+
+    <div class="container">
+        <!-- -----left-sidebar------ -->
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <img src="../images2/cover-pic.png" width="100%">
+                <div class="sidebar-profile-info">
+                    <div class="view-profile">
+                        <div><img src="../images1/feed-image-3.png"></div>
+                        <div><img src="../images1/feed-image-2.png"></div>
+                    </div>
+                    <img src="../images1/feed-image-3.png" class="initiate">
+                    <h1>paxton talyor</h1>
+                    <h3>Freelance web developer</h3>
+                    <ul>
+                        <li>Your profile views <span>52</span></li>
+                        <li>Your post views <span>730</span></li>
+                        <li>Your friends views <span>129</span></li>
+                        <li>your notification <span>57</span></li>
+                    </ul>
+                </div>
+                <div class="sidebar-profile-link">
+                    <a href="#"><img src="../images2/items.png"> My items</a>
+                    <a href="#"><img src="../images2/premium.png">Get premium</a>
+                </div>
+            </div>
+            <div class="sidebar-activity">
+                <h3>RECENT</h3>
+                <a href="#"><img src="../images2/recent.png"> Web Development</a>
+                <a href="#"><img src="../images2/recent.png"> User interface</a>
+                <a href="#"><img src="../images2/recent.png"> Online learning</a>
+                <a href="#"><img src="../images2/recent.png"> learn more on server</a>
+                <a href="#"><img src="../images2/recent.png"> Code better</a>
+                <a href="#"><img src="../images2/recent.png"> Group leaarning</a>
+                <h3>GROUPS</h3>
+                <a href="#"><img src="../images2/group.png"> Web Development group</a>
+                <a href="#"><img src="../images2/group.png"> Html and Css pro</a>
+                <a href="#"><img src="../images2/group.png"> Python and java kingdom</a>
+                <a href="#"><img src="../images2/group.png"> learning coding online</a>
+                <h3>HASHTAG</h3>
+                <a href="#"><img src="../images2/hashtag.png"> webdevelopment</a>
+                <a href="#"><img src="../images2/hashtag.png"> procoding</a>
+                <a href="#"><img src="../images2/hashtag.png"> onlinelearning</a>
+                <div class="discover-more-link">
+                    <a href="#">discover more</a>
+                </div>
+            </div>
+        </div>
+        <!-- -----center-sidebar------ -->
+        <div class="center-sidebar">
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="../images1/feed-image-3.png" alt="" class="initiate2">
+                    <textarea rows="2" placeholder="write a post"></textarea>
+                </div>
+
+                <div class="create-post-link">
+                    <li><img src="../images2/photo.png">Photo</li>
+                    <li><img src="../images2/video.png">Video</li>
+                    <li><img src="../images2/event.png">Event</li>
+                    <li>Post</li>
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr>
+                <p>sort by: <span> top <img src="../images2/down-arrow.png"></span></p>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="../images2/user-2.png" alt="">
+                    <div>
+                        <h1>ken patthy</h1>
+                        <small>Founder and CEO at patthy foundation | susage camp 2 hours ago</small>
+                    </div>
+                </div>
+                <p>The success of every website depend on digital marketing strategies and good functionality . If you
+                    are on the first page of most search engines then you are ahead you rivals. </p>
+                <img src="../images2/post-image-1.png" width="100%">
+                <div class="post-stats">
+                    <div>
+                        <img src="../images2/thumbsup.png" alt="">
+                        <img src="../images2/love.png" alt="">
+                        <img src="../images2/clap.png" alt="">
+                        <span class="liked-users"> gbacamil carty and 75 other</span>
+                    </div>
+                    <div>
+                        <span>32 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="../images2/user-1.png" class="post-activity-user-icon">
+                        <img src="../images2/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="../images2/like.png" alt="">
+                        <span>like</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="../images2/share.png" alt="">
+                        <span>share</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="../images2/send.png" alt="">
+                        <span>send</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="../images2/user-1.png" alt="">
+                    <div>
+                        <h1>Clarence silver</h1>
+                        <small>Founder and CEO at patthy foundation | susage camp 2 hours ago</small>
+                    </div>
+                </div>
+                <p>The success of every website depend on digital marketing strategies and good functionality . If you
+                    are on the first page of most search engines then you are ahead you rivals. </p>
+                <img src="../images2/post-image-2.png" width="100%">
+                <div class="post-stats">
+                    <div>
+                        <img src="../images2/thumbsup.png" alt="">
+                        <img src="../images2/love.png" alt="">
+                        <img src="../images2/clap.png" alt="">
+                        <span class="liked-users"> gbacamil carty and 75 other</span>
+                    </div>
+                    <div>
+                        <span>32 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="../images2/user-1.png" class="post-activity-user-icon">
+                        <img src="../images2/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="../images2/like.png" alt="">
+                        <span>like</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="../images2/share.png" alt="">
+                        <span>share</span>
+                    </div class="post-activity-link">
+
+                    <div class="post-activity-link">
+                        <img src="../images2/send.png" alt="">
+                        <span>send</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="../images2/user-3.png" alt="">
+                    <div>
+                        <h1>summer joe</h1>
+                        <small>Founder and CEO at patthy foundation | susage camp 2 hours ago</small>
+                    </div>
+                </div>
+                <p>The success of every website depend on digital marketing strategies and good functionality . If you
+                    are on the first page of most search engines then you are ahead you rivals. </p>
+                <img src="../images2/post-image-3.png" width="100%">
+                <div class="post-stats">
+                    <div>
+                        <img src="../images2/thumbsup.png" alt="">
+                        <img src="../images2/love.png" alt="">
+                        <img src="../images2/clap.png" alt="">
+                        <span class="liked-users"> gbacamil carty and 75 other</span>
+                    </div>
+                    <div>
+                        <span>32 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="../images2/user-1.png" class="post-activity-user-icon">
+                        <img src="../images2/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="../images2/like.png" alt="">
+                        <span>like</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="../images2/share.png" alt="">
+                        <span>share</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="../images2/send.png">
+                        <span>send</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="../images2/user-5.png" alt="">
+                    <div>
+                        <h1> king samuel</h1>
+                        <small>Founder and CEO at patthy foundation | susage camp 2 hours ago</small>
+                    </div>
+                </div>
+                <p>The success of every website depend on digital marketing strategies and good functionality . If you
+                    are on the first page of most search engines then you are ahead you rivals. </p>
+                <img src="../images2/post-image-4.png" width="100%">
+                <div class="post-stats">
+                    <div>
+                        <img src="../images2/thumbsup.png" alt="">
+                        <img src="../images2/love.png" alt="">
+                        <img src="../images2/clap.png" alt="">
+                        <span class="liked-users"> gbacamil carty and 75 other</span>
+                    </div>
+                    <div>
+                        <span>32 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="../images2/user-1.png" class="post-activity-user-icon">
+                        <img src="../images2/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="../images2/like.png" alt="">
+                        <span>like</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="../images2/share.png" alt="">
+                        <span>share</span>
+                    </div>
+
+                    <div class="post-activity-link">
+                        <img src="../images2/send.png" alt="">
+                        <span>send</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- -----right-sidebar------ -->
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+                <img src="../images2/more.png" class="info-icon">
+                <h2>Trending news</h2>
+                <a href="#">High demand for computerized manpower skills <span>1hr ago &middot; 10,934 readers</span>
+                </a>
+                <a href="#">Careers growing horizontally too <span>2hr ago &middot; 1,478 readers</span> </a>
+                <a href="#">Legacy billy graham left behind <span> 1d ago &middot; 634 readers</span> </a>
+                <a href="#">More hiring = higher? <span>1d ago &middot; 19,239 readers</span> </a>
+                <a href="#">Check out this declared tesla 2025 model <span>2d ago &middot; 8,400 readers</span> </a>
+                <a href="#" class="read-more">read more</a>
+            </div>
+
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master 5 principles of web design</p>
+                <div>
+                    <img src="../images2/user-1.png">
+                    <img src="../images2/mi-logo.png">
+                </div>
+                <b>Brand and demands in xioami</b>
+                <a href="#" class="ad-link">Learn more</a>
+            </div>
+            <div class="sidebar-useful-link">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help</a>
+                <a href="#">Center</a>
+                <a href="#">Privacy</a>
+                <a href="#">Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the app</a>
+                <div class="copywrite-mess">
+                    <img src="../images2/logo.png">
+                    <p>linkedup &#169; 2024. All right reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
